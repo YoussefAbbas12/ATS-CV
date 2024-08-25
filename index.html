@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATS CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"  rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <style>
+      body {
+        background-color: #f4f4f4;
+        font-family: Arial, sans-serif;
+      }
+      .resume {
+        max-width: 1200px;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 30px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+      }
+      .header {
+        text-align: center;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        border-bottom: 2px solid #ddd;
+      }
+      .header h1 {
+        margin: 0;
+        font-size: 80px;
+        font-weight: 400;
+      }
+      .header p {
+        margin: 0;
+        font-size: 22px;
+        color: #777;
+        letter-spacing: 9px;
+      }
+      .Contact-title,
+      .Summary-title {
+        font-weight: 500;
+        font-size: 35px;
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+      }
+      .section-title {
+        font-weight: 500;
+        font-size: 35px;
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+        padding-top: 30px;
+        margin-top: 30px;
+        border-top: 2px solid #ddd;
+        text-transform: uppercase;
+      }
+      .contact-info {
+        list-style: none;
+        padding: 0;
+      }
+      .contact-info li {
+        margin-bottom: 15px;
+        font-size: 18px;
+      }
+      .contact-info li i {
+        margin-right: 10px;
+        color: #666;
+      }
+      .skills,
+      .education {
+        margin-bottom: 30px;
+      }
+      .skills ul,
+      .education ul {
+        padding-left: 0;
+        list-style: none;
+      }
+      .skills li,
+      .education li {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+      .work-experience {
+        margin-bottom: 30px;
+      }
+      .job-title {
+        font-weight: 500;
+        margin-bottom: 5px;
+        font-size: 26px;
+      }
+      .job-details {
+        font-style: italic;
+        color: #555;
+        margin-bottom: 15px;
+        font-size: 18px;
+      }
+      .job-description {
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      ul li {
+        margin-bottom: 20px;
+        font-size: 16px;
+      }
+      .leftSection {
+        position: relative;
+      }
+      .leftSection::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 62px;
+        background-color: #ddd;
+        border-left: 30px solid #fff;
+        border-right: 30px solid #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="resume">
+      <div class="header">
+        <h1>SUSIE WILLIAMS</h1>
+        <p>PROFESSIONAL TITLE</p>
+      </div>
+
+      <div class="row">
+        <!-- Left Column -->
+        <div class="col-md-4 leftSection">
+          <!-- Contact Information -->
+          <div class="contact">
+            <ul class="contact-info">
+              <li><i class="fas fa-envelope"></i> Email</li>
+              <li><i class="fas fa-phone"></i> Phone Number</li>
+              <li><i class="fas fa-map-marker-alt"></i> Location</li>
+              <li><i class="fas fa-user"></i> Profile Name</li>
+            </ul>
+          </div>
+
+          <!-- Skills -->
+          <div class="skills">
+            <h3 class="section-title">Skills</h3>
+            <ul>
+              <li>Data Analysis</li>
+              <li>Project Management</li>
+              <li>Software Development</li>
+              <li>Accounting Software</li>
+              <li>Foreign Languages</li>
+              <li>Team Management</li>
+              <li>Emotional Intelligence</li>
+              <li>Social Media Marketing</li>
+              <li>Cloud Computing</li>
+            </ul>
+          </div>
+
+          <!-- Education -->
+          <div class="education">
+            <h3 class="section-title">Education</h3>
+            <ul>
+              <li>
+                Enter Degree/Major<br /><small>Name of School, Location Date - Date</small>
+              </li>
+              <li>
+                Enter Degree/Major<br /><small>Name of School, Location Date - Date</small>
+              </li>
+              <li>
+                Enter Degree/Major<br /><small>Name of School, Location Date - Date</small>
+              </li>
+              <li>
+                Enter Degree/Major<br /><small>Name of School, Location Date - Date</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-md-8">
+          <!-- Summary -->
+          <div class="summary">
+            <h3 class="Summary-title">Summary</h3>
+            <p>
+              This is where you write a brief description of what your main
+              skills are and how your skills could benefit the company you are
+              applying for. Really sell yourself, write about what you are
+              capable of and always link back to the added value that you could
+              bring to the company. Don’t primarily talk about what you desire
+              in your job, but rather do the opposite. Perhaps talk about how
+              your personal goals align with the goals of the company you are
+              applying for. Aim to be short and simple as hiring managers have
+              little time to go through each resume.
+            </p>
+          </div>
+
+          <!-- Work Experience -->
+          <div class="work-experience">
+            <h3 class="section-title">Work Experience</h3>
+            <div class="job">
+              <p class="job-title">JOB TITLE</p>
+              <p class="job-details">Company Name, Location | Date - Present</p>
+              <p class="job-description">
+                Remember relevancy, pay attention to what the employer is
+                looking for; if they are hiring a designer, for instance, they
+                won’t care if you’ve worked as a waiter; on the other hand, if
+                they are looking for a waiter, you’re experience as a designer
+                would be useless.
+              </p>
+              <ul>
+                <li>
+                  Be sure to add a numerous keyword in your resume to make it
+                  appealing to computer scanning programmes as well.
+                </li>
+                <li>
+                  Keep in mind that many of the search terms they use are
+                  present in the job postings that the company posts.
+                </li>
+                <li>
+                  To ensure that the software recognises your resume, insert as
+                  many search terms as you can that are relevant only to your
+                  application, such as certain skills, expertise, and needs.
+                </li>
+              </ul>
+            </div>
+
+            <div class="job">
+              <p class="job-title">JOB TITLE</p>
+              <p class="job-details">Company Name, Location | Date - Present</p>
+              <p class="job-description">
+                Use these opening sentences to briefly describe (always using
+                the relevant keywords you have accomplished specifically for the
+                company you worked for or explain the nature of the job to the
+                company if it is less well-known. If not, delete thisand move on
+                to the list of bullet points.
+              </p>
+              <ul>
+                <li>
+                  Don’t just list your job responsibilities here. Describe what
+                  you did. If you were a manager of a particular sector,
+                  describe the outcomes you achieved for the company you worked
+                  with in this section. Also, always use the right keywords.
+                </li>
+                <li>
+                  Describe the goals you have set for yourself and those that
+                  you have achieved. Also explain how your achievements
+                  helpedthe company has save time or money.
+                </li>
+                <li>
+                  If you have measurable outcomes, input them here. Numbers are
+                  significant since they are easy to understand and draw
+                  attention.
+                </li>
+                <li>
+                  Write about the relationship you had with your co-workers and
+                  how this job has helped you develop your skills.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
