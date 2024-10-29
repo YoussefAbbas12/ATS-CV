@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ATS CV</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"  rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
     <style>
@@ -12,8 +13,7 @@
         font-family: Arial, sans-serif;
       }
       .resume {
-        max-width: 1200px;
-        margin: 50px auto;
+        max-width: 100%;
         background-color: #fff;
         padding: 30px;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -125,8 +125,8 @@
   <body>
     <div class="resume">
       <div class="header">
-        <h1>SUSIE WILLIAMS</h1>
-        <p>PROFESSIONAL TITLE</p>
+        <h1>Youssef Mohamed Abbas</h1>
+        <p>Front end Developer</p>
       </div>
 
       <div class="row">
@@ -135,10 +135,9 @@
           <!-- Contact Information -->
           <div class="contact">
             <ul class="contact-info">
-              <li><i class="fas fa-envelope"></i> Email</li>
-              <li><i class="fas fa-phone"></i> Phone Number</li>
-              <li><i class="fas fa-map-marker-alt"></i> Location</li>
-              <li><i class="fas fa-user"></i> Profile Name</li>
+              <li><i class="fas fa-envelope"></i> youssefabbas722@gmail.com</li>
+              <li><i class="fas fa-phone"></i> 0102725412</li>
+              <li><i class="fas fa-map-marker-alt"></i> Shebin Al-Koud / Menoufia / Egypt</li>
             </ul>
           </div>
 
@@ -146,15 +145,17 @@
           <div class="skills">
             <h3 class="section-title">Skills</h3>
             <ul>
-              <li>Data Analysis</li>
-              <li>Project Management</li>
-              <li>Software Development</li>
-              <li>Accounting Software</li>
-              <li>Foreign Languages</li>
-              <li>Team Management</li>
-              <li>Emotional Intelligence</li>
-              <li>Social Media Marketing</li>
-              <li>Cloud Computing</li>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>BootStrap</li>
+              <li>React js</li>
+              <li>PHP</li>
+              <li>C++</li>
+              <li>Python</li>
+              <li>Microsoft Word</li>
+              <li>Microsoft Power Point</li>
+              <li>Microsoft Exel</li>
             </ul>
           </div>
 
@@ -163,16 +164,7 @@
             <h3 class="section-title">Education</h3>
             <ul>
               <li>
-                Enter Degree/Major<br /><small>Name of School, Location Date - Date</small>
-              </li>
-              <li>
-                Enter Degree/Major<br /><small>Name of School, Location Date - Date</small>
-              </li>
-              <li>
-                Enter Degree/Major<br /><small>Name of School, Location Date - Date</small>
-              </li>
-              <li>
-                Enter Degree/Major<br /><small>Name of School, Location Date - Date</small>
+                <b><span style="font-size: 20px;">I am a high school student in : </span><br /><small style="font-size: 13px;">WE School For Applied Technology in Mansoura</small></b>
               </li>
             </ul>
           </div>
@@ -184,15 +176,7 @@
           <div class="summary">
             <h3 class="Summary-title">Summary</h3>
             <p>
-              This is where you write a brief description of what your main
-              skills are and how your skills could benefit the company you are
-              applying for. Really sell yourself, write about what you are
-              capable of and always link back to the added value that you could
-              bring to the company. Don’t primarily talk about what you desire
-              in your job, but rather do the opposite. Perhaps talk about how
-              your personal goals align with the goals of the company you are
-              applying for. Aim to be short and simple as hiring managers have
-              little time to go through each resume.
+              Motivated front-end developer with hands-on experience in web technologies and a strong passion for building intuitive and user-friendly websites. Seeking to leverage my skills in HTML, CSS, JavaScript, and frameworks like React to contribute to innovative projects. I am committed to continuous learning and looking forward to collaborating with creative teams to deliver high-quality web experiences.
             </p>
           </div>
 
@@ -200,62 +184,95 @@
           <div class="work-experience">
             <h3 class="section-title">Work Experience</h3>
             <div class="job">
-              <p class="job-title">JOB TITLE</p>
-              <p class="job-details">Company Name, Location | Date - Present</p>
-              <p class="job-description">
-                Remember relevancy, pay attention to what the employer is
-                looking for; if they are hiring a designer, for instance, they
-                won’t care if you’ve worked as a waiter; on the other hand, if
-                they are looking for a waiter, you’re experience as a designer
-                would be useless.
-              </p>
+              <p class="job-title">Trainee – Msar Web (Training Program)</p>
+              <p class="job-details">Location: Menouf / Menoufia / Egypt | Trainee – Msar Web (2 Months)</p>
               <ul>
                 <li>
-                  Be sure to add a numerous keyword in your resume to make it
-                  appealing to computer scanning programmes as well.
+                  Collaborated with the team to understand business requirements and develop the front-end of a corporate website.
                 </li>
                 <li>
-                  Keep in mind that many of the search terms they use are
-                  present in the job postings that the company posts.
+                  Enhanced my skills in building responsive designs using HTML, CSS, Bootstrap, and JavaScript.
                 </li>
                 <li>
-                  To ensure that the software recognises your resume, insert as
-                  many search terms as you can that are relevant only to your
-                  application, such as certain skills, expertise, and needs.
+                  Collaborated within an agile environment, contributing to real-world projects and enhancing teamwork skills                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- My Projects -->
+          <div class="work-experience">
+            <h3 class="section-title">Projects</h3>
+            <div class="job">
+              <p class="job-title">Corporate Website for Msar Web</p>
+              <ul>
+                <li>
+                  Developed the complete front-end interface for the company’s official website, focusing on performance and responsiveness.
+                </li>
+                <li>
+                  Created and structured more than 10 pages, ensuring cross-browser compatibility and a seamless user experience.
+                </li>
+                <li>
+                  Worked closely with the team to align the design with the company’s branding and vision.
                 </li>
               </ul>
             </div>
-
             <div class="job">
-              <p class="job-title">JOB TITLE</p>
-              <p class="job-details">Company Name, Location | Date - Present</p>
-              <p class="job-description">
-                Use these opening sentences to briefly describe (always using
-                the relevant keywords you have accomplished specifically for the
-                company you worked for or explain the nature of the job to the
-                company if it is less well-known. If not, delete thisand move on
-                to the list of bullet points.
-              </p>
+              <p class="job-title">Islamic Website with Quran Recitation</p>
               <ul>
                 <li>
-                  Don’t just list your job responsibilities here. Describe what
-                  you did. If you were a manager of a particular sector,
-                  describe the outcomes you achieved for the company you worked
-                  with in this section. Also, always use the right keywords.
+                  Built a comprehensive website that offers access to all the surahs of the Quran.
                 </li>
                 <li>
-                  Describe the goals you have set for yourself and those that
-                  you have achieved. Also explain how your achievements
-                  helpedthe company has save time or money.
+                  Implemented a feature that allows users to listen to surahs with audio playback from over twenty different reciters.
                 </li>
                 <li>
-                  If you have measurable outcomes, input them here. Numbers are
-                  significant since they are easy to understand and draw
-                  attention.
+                  Added functionality to provide detailed tafsir (explanation) for any surah within the Quran.
                 </li>
                 <li>
-                  Write about the relationship you had with your co-workers and
-                  how this job has helped you develop your skills.
+                  Focused on ensuring a smooth user experience with intuitive navigation and responsive design.
+                </li>
+              </ul>
+            </div>
+            <div class="job">
+              <p class="job-title">Competition Management Website for University Event</p>
+              <ul>
+                <li>
+                  Developed a Full Stack web application for a university competition, allowing teams of up to five members or individual participants to register.
+                </li>
+                <li>
+                  Designed a real-time event tracking feature to update scores dynamically and display the current standings throughout the competition.
+                </li>
+                <li>
+                  At the end of the event, the website automatically identifies and displays the top-scoring team as the winner.
+                </li>
+                <li>
+                  All data is stored and managed in a database to ensure smooth operation and performance.
+                </li>
+                <li>
+                  Technologies used: HTML, CSS, PHP, and Database.
+                </li>
+              </ul>
+            </div>
+            <div class="job">
+              <p class="job-title">Automated News Video Generation Using Python</p>
+              <ul>
+                <li>
+                  Developed a Python-based project to automatically generate news videos using real-time news from BBC News.
+                </li>
+                <li>
+                  The program scrapes the latest news and stores them in a Word document for archiving.
+                </li>
+                <li>
+                  Utilized Eleven Labs API to convert the news content into realistic audio narration.
+                </li>
+                <li>
+                  Downloaded relevant news images from BBC News and combined them with audio using the moviepy library to produce a coherent news video.
+                </li>
+                <li>
+                  This automated system ensures fast and efficient news video creation without manual intervention, making it suitable for dynamic content updates.
+                </li>
+                <li>
+                  Technologies used: Python, Eleven Labs API, Web Scraping, and moviepy.
                 </li>
               </ul>
             </div>
@@ -264,6 +281,24 @@
       </div>
     </div>
 
+    <button id="download-btn">download</button>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      // JavaScript لتحويل السيرة الذاتية إلى PDF عند النقر على الزر
+      document.getElementById('download-btn').addEventListener('click', () => {
+        const resume = document.getElementsByClassName('resume')[0]; // عنصر HTML الذي سيتم تحويله إلى PDF
+  
+        const options = {
+          margin: 10,
+          filename: 'Youssef_Mohamed_Abbas_Resume.pdf',
+          image: { type: 'jpeg', quality: 0.98 },
+          html2canvas: { scale: 2 },
+          jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+        };
+  
+        html2pdf().from(resume).set(options).save();
+      });
+    </script>
   </body>
 </html>
