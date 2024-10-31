@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ATS CV</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"  rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
     <style>
@@ -138,7 +137,7 @@
               <li><i class="fas fa-envelope"></i> <a style="text-decoration: none;" href="mailto:youssefabbas722@gmail.com">youssefabbas722@gmail.com</a></li>
               <li><i class="fas fa-phone"></i> <a style="text-decoration: none;" href="tel:0102725412">0102725412</a></li>
               <li><i class="fas fa-map-marker-alt"></i> <a style="text-decoration: none;" href="https://www.google.com/maps/search/?api=1&query=Shebin+Al-Koud,+Menoufia,+Egypt" target="_blank">Shebin Al-Koud / Menoufia / Egypt</a></li>
-              <li><i class="fa-brands fa-github"></i> <a style="text-decoration: none;" href="https://github.com/YoussefAbbas12/" target="_blank">My Github</a></li>
+              <li><i class="fa-brands fa-github"></i> <a style="text-decoration: none;" href="https://github.com/YoussefAbbas12/" target="_blank">https://github.com/YoussefAbbas12/</a></li>
             </ul>
           </div>
 
@@ -216,7 +215,7 @@
                   Worked closely with the team to align the design with the company’s branding and vision.
                 </li>
               </ul>
-              <h5>This is the Link : <a href="https://youssefabbas12.github.io/msar-/">Msarweb</a></h5>
+              <h5>This is the Link : <a href="https://youssefabbas12.github.io/msar-/">https://youssefabbas12.github.io/msar-/ - (Msarweb)</a></h5>
             </div>
             <div class="job">
               <p class="job-title">Islamic Website with Quran Recitation</p>
@@ -235,7 +234,7 @@
                 </li>
               </ul>
             </div>
-            <h5>This is the Link (But there is some problems habbend on upload) : <a href="https://youssefabbas12.github.io/elquran-web/">Eslam Web</a></h5>
+            <h5>This is the Link (But there is some problems habbend on upload) : <a href="https://youssefabbas12.github.io/elquran-web/">https://youssefabbas12.github.io/elquran-web/ - (Eslam Web)</a></h5>
             <div class="job">
               <p class="job-title">Competition Management Website for University Event</p>
               <ul>
@@ -256,7 +255,7 @@
                 </li>
               </ul>
             </div>
-            <h5>This is the Link : <a href="https://github.com/YoussefAbbas12/University-compitition">University Compitition</a></h5>
+            <h5>This is the Link : <a href="https://github.com/YoussefAbbas12/University-compitition">https://github.com/YoussefAbbas12/University-compitition - (University Compitition)</a></h5>
             <div class="job">
               <p class="job-title">Automated News Video Generation Using Python</p>
               <ul>
@@ -281,30 +280,11 @@
               </ul>  
             </div>
 
-            <h5>This is the Link : <a href="https://github.com/YoussefAbbas12/Python-Video-Generator/">Python Video Generator</a></h5>
+            <h5>This is the Link : <a href="https://github.com/YoussefAbbas12/Python-Video-Generator/">https://github.com/YoussefAbbas12/Python-Video-Generator/ - (Python Video Generator)</a></h5>
           </div>
         </div>
       </div>
     </div>
 
-    <button id="download-btn">download</button>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script>
-      // JavaScript لتحويل السيرة الذاتية إلى PDF عند النقر على الزر
-      document.getElementById('download-btn').addEventListener('click', () => {
-        const resume = document.getElementsByClassName('resume')[0]; // عنصر HTML الذي سيتم تحويله إلى PDF
-  
-        const options = {
-          margin: 10,
-          filename: 'Youssef_Mohamed_Abbas_Resume.pdf',
-          image: { type: 'jpeg', quality: 0.98 },
-          html2canvas: { scale: 2 },
-          jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
-        };
-  
-        html2pdf().from(resume).set(options).save();
-      });
-    </script>
   </body>
 </html>
